@@ -15,8 +15,8 @@
   font-size: 17px;
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px gray;
-  --webkit-box-shadow: 0 8px 6px -6px gray;
+  box-shadow: 0 8px 6px -6px rgb(255, 9, 9);
+  --webkit-box-shadow: 0 8px 6px -6px rgb(248, 32, 32);
   border-bottom: solid gray !important;
 }
 
@@ -37,15 +37,15 @@
 ==========footer============= */
 
 .footer {
-  color: white;
+  color: rgb(213, 240, 12);
   padding: 25px;
-  background: #000000; /* fallback for old browsers */
+  background: #ea1717; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #ce1b1b,
+    #de3333
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #080808, #020202);
 }
 
 .footer a {
@@ -55,7 +55,7 @@
 }
 
 .footer a:hover {
-  color: #ffefba;
+  color: #efa00e;
   border-bottom: 1px solid #ffefba;
 }
 /* =================================
@@ -92,9 +92,22 @@
 /* =========contact us ========= */
 .contactus {
   margin: 0;
-  padding: 0;
-  height: 70vh;
+  padding: 80px;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+/* ********************************* */
+/************register*************/
+  .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  
+  

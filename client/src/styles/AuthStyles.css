@@ -1,0 +1,140 @@
+ /* ===================================
+========= register page  
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #adb7f1;
+  background-image: linear-gradient(0deg, #eff4ae 0%, #ff4001 100%);
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #eac54a;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+}
+
+.form-container form button {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #000;
+  color: white;
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: 1px solid black;
+  background: #000000; /* fallback for old browsers */
+  
+  /* background: -webkit-linear-gradient(
+    to right,
+    #eeb118,
+    #000000
+  ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #ab9dd7,
+    #5cabb5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* }
+
+.forgot-btn {
+  background-color: #ecca06a4 !important;
+  border: 0 !important;
+}
+
+/* Styles for Register Page Form */
+
+/* Container styling */
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background: linear-gradient(0deg, #eff4ae 0%, #ff4001 100%);
+}
+
+/* Form styling */
+.form-container form {
+  box-shadow: 0px 5px 15px rgba(246, 21, 21, 0.35);
+  padding: 20px;
+  background-color: #eac54a;
+  width: 300px; /* Adjust width to your preference */
+  border-radius: 10px;
+}
+
+/* Title styling */
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  color: #333; /* Adjust color to your preference */
+}
+
+/* Input field styling */
+.form-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent; /* Transparent background */
+  transition: border-bottom-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-container form input:focus {
+  outline: none;
+  border-bottom-color: #eeb118; /* Highlight color on focus */
+}
+
+/* Button styling */
+.form-container form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.form-container form button:hover {
+  background-color: #5cabb5; /* Darker shade on hover */
+}
+
+/* Forgot button styling */
+.forgot-btn {
+  background-color: #000000 !important;
+  border: none !important;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: #0c0c0c;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.forgot-btn:hover {
+  background-color: #f37208; /* Lighter shade on hover */
+  color: rgb(247, 7, 7);
+  
+} 

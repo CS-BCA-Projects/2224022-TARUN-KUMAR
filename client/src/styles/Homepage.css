@@ -1,0 +1,55 @@
+ .home-page h1 {
+    color: gray;
+    background-color: rgb(246, 241, 114);
+    font-family: "Playfair Display", serif;
+  }
+  /*
+  .btn-outline-success{
+    color: rgb(0, 0, 0);
+    
+  }
+    */
+
+
+
+
+
+
+    
+    /* =============================
+       Product Container (Row Format)
+============================= */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* =============================
+       Product Card Styling
+============================= */
+.product-card {
+  width: 250px;
+  background: rgb(233, 84, 84);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* =============================
+       Product Image
+============================= */
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}

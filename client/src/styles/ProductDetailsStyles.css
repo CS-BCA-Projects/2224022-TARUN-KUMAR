@@ -1,0 +1,194 @@
+/* .product-details {
+    margin-top: 100px !important;
+  }
+  
+  .product-details-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; 
+    justify-content: center;
+  }
+  
+  .product-details-info h6 {
+    margin-bottom: 20px !important;
+  }
+  
+  .similar-products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+  }
+  
+  .similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .similar-products .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .similar-products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .similar-products .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .similar-products .card-img-top {
+    height: 300px !important;
+  } */
+
+
+
+  /* =============================
+       Product Details Section
+============================= */
+.product-details {
+  margin-top: 100px !important;
+  padding: 40px;
+  background-color: #cbe6f0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =============================
+       Product Details Info
+============================= */
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+  font-size: 18px;
+  color: #232e03;
+  font-weight: 600;
+}
+
+/* =============================
+       Similar Products Section
+============================= */
+.similar-products {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.similar-products h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* =============================
+       Similar Product Card
+============================= */
+.similar-products .card {
+  width: 280px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.similar-products .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* =============================
+       Product Name & Price
+============================= */
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+.similar-products .card-price {
+  color: #27ae60; /* A more modern green */
+  font-weight: bold;
+}
+
+/* =============================
+       Add to Cart Button
+============================= */
+.similar-products button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff7f50, #ff4001);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.similar-products button:hover {
+  background: linear-gradient(45deg, #ff4001, #d32f2f);
+  transform: translateY(-2px);
+}
+
+/* =============================
+       Product Description Text
+============================= */
+.similar-products .card-text {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* =============================
+       Product Image Styling
+============================= */
+.similar-products .card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.similar-products .card img:hover {
+  transform: scale(1.05);
+}
+
+/* =============================
+       Responsive Design
+============================= */
+@media (max-width: 768px) {
+  .product-details {
+    padding: 20px;
+  }
+
+  .similar-products {
+    padding: 10px;
+  }
+
+  .similar-products .card {
+    width: 90%;
+  }
+}

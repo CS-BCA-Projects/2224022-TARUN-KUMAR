@@ -1,0 +1,165 @@
+/* .category {
+    flex-wrap: wrap;
+    margin-top: 80px !important;
+  }
+  .category .card {
+    background-color: rgba(227, 153, 13, 0.097);
+    width: 18rem;
+  }
+  .category .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .category .card-price {
+    color: rgb(227, 116, 47);
+    font-weight: bold;
+  }
+  .category button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .category .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .category .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .category .card-img-top {
+    height: 300px !important;
+  } */
+
+
+
+
+  /* =============================
+      Category Section Styling
+============================= */
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 80px !important;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8f9fa, #e3eaf3); /* Subtle gradient */
+}
+
+/* =============================
+      Category Card Styling
+============================= */
+.category .card {
+  background: #fff;
+  width: 18rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.category .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* =============================
+      Card Image Styling
+============================= */
+.category .card-img-top {
+  height: 260px !important;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category .card img:hover {
+  transform: scale(1.05);
+}
+
+/* =============================
+      Card Content Styling
+============================= */
+.category .card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.category .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* =============================
+      Price Styling
+============================= */
+.category .card-price {
+  color: #e3742f;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* =============================
+      Card Description
+============================= */
+.category .card-text {
+  color: #5a5959;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* =============================
+      Add to Cart Button
+============================= */
+.category button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff7f50, #ff4001);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category button:hover {
+  background: linear-gradient(45deg, #ff4001, #d32f2f);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* =============================
+      Responsive Design
+============================= */
+@media (max-width: 768px) {
+  .category {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category .card {
+    width: 90%;
+  }
+
+  .category .card-img-top {
+    height: 220px !important;
+  }
+}

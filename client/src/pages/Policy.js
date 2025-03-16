@@ -3,13 +3,13 @@ import Layout from "./../components/Layout/Layout";
 
 const Policy = () => {
   return (
-    <Layout>
+    <Layout title={"our privacy policy"}>
       <div className="row contactus ">
         <div className="col-md-6 ">
           <img
-            src="/images/contactus.jpeg"
+            src="/images/privacy.jpeg"
             alt="contactus"
-            style={{ width: "100%" }}
+            style={{ width:"50%"}}
           />
         </div>
         <div className="col-md-4">
