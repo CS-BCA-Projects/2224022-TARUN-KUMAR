@@ -138,7 +138,7 @@ const CartPage = () => {
                     <h5>{auth?.user?.address}</h5>
                     <button
                       className="btn btn-outline-warning"
-                      onClick={() => navigate("/dashboard/user/profile")}
+                      onClick={() => navigate("/dashboard/auth/profile")}
                     >
                       Update Address
                     </button>
@@ -162,7 +162,7 @@ const CartPage = () => {
                         })
                       }
                     >
-                      Plase Login to checkout
+                      Please Login to checkout
                     </button>
                   )}
                 </div>
@@ -188,6 +188,7 @@ const CartPage = () => {
                       disabled={loading || !instance || !auth?.user?.address}
                     >
                       {loading ? "Processing ...." : "Make Payment"}
+                     
                     </button>
                   </>
                 )}

@@ -10,7 +10,7 @@ import {  brainTreePaymentController,
          productFiltersController, 
          productListController, 
          productPhotoController, 
-         realtedProductController, 
+         realtedProductController,
          searchProductController,
          updateProductController
         } from "../controllers/productController.js";
