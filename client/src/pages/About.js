@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="col-md-4">
           <p className="text-justify mt-2">
-            <b>Jai Shree Ram to all...Sanatani Store is an exclusive e-commerce platform dedicated to providing all Sanatani products in one place at the most affordable prices. Our mission is to promote and preserve the rich cultural heritage of Sanatan Dharma by offering a wide range of authentic and high-quality products, making them accessible to everyone. </b>
+            <b>Jai Shree Ram to all...Sanatani Store is an exclusive e-commerce platform dedicated to providing all Sanatani products in one place at the most affordable prices. Our mission is to promote and preserve the rich cultural heritage of Sanatan Dharma by offering a wide range of authentic and high-quality products, making them accessible to anyone...</b>
           </p>
         </div>
       </div>
