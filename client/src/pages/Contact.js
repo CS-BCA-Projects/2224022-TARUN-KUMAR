@@ -18,7 +18,7 @@ const Contact = () => {
           "Need help with orders, products, or queries? Contact Sanatani Store for support. We're here to assist you with devotion and care. Reach out via call, email, or chat anytime!
           </p>
           <p className="mt-3">
-            <BiMailSend /> :sanatani@store.ac.in
+            <BiMailSend /> :sanatani.store@gmail.com
           </p>
           <p className="mt-3">
             <BiPhoneCall /> : +91-9889670940
